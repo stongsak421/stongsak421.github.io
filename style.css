@@ -1,5 +1,5 @@
 body{
-    background-image: url(pictures/background_lights.jpeg) no-repeat center center fixed;
+    background: url(pictures/background_lights.jpeg) no-repeat center center fixed;
     color: white;
   }
 
