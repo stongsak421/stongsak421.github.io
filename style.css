@@ -1,21 +1,33 @@
-body{
-    background: url(pictures/background_lights.jpeg) no-repeat center center fixed;
-    color: white;
-  }
-
 .jumbotron{
     background-color: rgba(100,100,100,0.5);
     margin: 25px;
+    padding: 25px;
   }
+
+
 
 img{
     width: 100%;
-    padding-bottom: 25px;
+
+  }
+
+
+body{
+    background: url('pictures/background_lights.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    color: white;
   }
 
 h2 {
-    padding-bottom: 25px;
+  font-family: 'Roboto Condensed', sans-serif;
   }
+
+h4 {
+  font-family: 'Raleway', sans-serif;
+}
 
 .jumbotron p {
     font-size: 0.90em;
